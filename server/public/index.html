@@ -7,9 +7,18 @@
     <title>Hadar Game Face</title>
     <script src="vendors/jquery-3.3.1.min.js"></script>
     <script src="scripts/client.js"></script>
-    
+
 </head>
 <body>
     <h1>Hadar Game Face</h1>
+    <input type="text" placeholder="Game Name" id="gameName">
+    <input type="number" placeholder="cost" id="cost">
+    <button id="submitButton">submit</button>
+    <table>
+        <thead><tr><th>Name</th><th>Cost</th></tr></thead>
+        <tbody id="gameContent">
+            <!-- games will be appended here -->
+        </tbody>
+    </table>
 </body>
 </html>
