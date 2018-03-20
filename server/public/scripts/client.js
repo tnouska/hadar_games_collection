@@ -22,11 +22,11 @@ function appendToDom(gameCollection) {
         if(game.isClearance) {
             tr.append('<td class="clearance">' + game.name + '</td>');
             tr.append('<td class="clearance">' + game.cost + '</td>');
-
+            tr.append('<td class="clearance">' + game.tax + '</td>');
         } else {
             tr.append('<td>' + game.name + '</td>');
             tr.append('<td>' + game.cost + '</td>');
-
+            tr.append('<td>' + game.tax + '</td>');
         }
         $('#gameContent').append(tr);
         
